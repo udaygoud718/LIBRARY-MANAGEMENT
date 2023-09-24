@@ -1,0 +1,74 @@
+.website{
+    display: inline;
+}
+
+.website .main{
+width: 100%;
+display: inline-block;
+}
+.website .main1{
+display: inline-block;
+margin: 0;
+}
+.website ul{
+display: inline-block;
+}
+.website ul li{
+    padding-left:10px;
+
+    display: inline-block;
+}
+
+.website .main2{
+    display: flex;
+    padding-left: 550px;
+    float: right;
+
+}
+.website .button input{
+    transition: transform .2s;
+
+}
+.website .button input:hover{
+
+transform: scale(1.10);
+background-color: rgb(119, 192, 237);
+color:black;
+
+}
+.website .button{
+padding-top: 25px;
+text-align: center;
+}
+
+.website input{
+border-radius:1rem;
+}   
+.website{
+
+
+background-size: cover;
+
+
+}  
+.website form{
+z-index: -1;
+opacity: 100;
+
+
+}
+.website .newacc a{
+display: block;
+margin:auto;
+transition: transform .2s;
+align-items: center;
+
+}
+.website .newacc a:hover{
+
+transform: scale(1.05);
+color:rgb(36, 225, 26);
+}
+.website .main img{
+padding-top: 50px;
+}

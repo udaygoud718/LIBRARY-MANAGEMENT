@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <style>
+        h1{
+            font-size: 50px;
+            
+        }
+        body {
+            display:inline-block;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            background-image: url(images/library7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+         a{
+            display:block;
+           margin-top: 10px;
+           border:2px solid black;
+           padding: 4px 4px;
+           font-size: x-large;
+           border-radius:0.3em;
+           color:white;
+           background-color:black;
+           text-decoration:none;
+        }
+         a:hover{
+           
+            color:rgb(12, 12, 12);
+            background-color: white;
+    
+    border-radius:0.3em;
+        }
+      
+        </style>
+</head>
+<body>
+
+   <div class="home"><a href="homepage.html">HOME</a></div>
+   <p id="profile" style="font-size:40px"> </p>
+   <script type="text/javascript">
+    document.getElementById("profile").innerHTML = ("<b>Profile</b>"+"<br><br>"+"<b>Name</b>:"+localStorage.getItem("name1")+"<br>"+"<b>Roll no:</b>"+localStorage.getItem("rollno1")+"<br>"+"<b>Email:</b>"+localStorage.getItem("e-mail1")+"<br>"+"<b>Mobile no:</b>"+localStorage.getItem("phno1")+"<br>"+"<b>Course:</b>"+localStorage.getItem("dept1")+"<br>"+"<b>Username:</b>"+localStorage.getItem("user1")+"<br>");
+    </Script>
+</body>
+</html>

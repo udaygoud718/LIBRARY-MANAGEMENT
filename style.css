@@ -1,0 +1,116 @@
+body img{
+    
+    width: 400px;
+}
+.body1{
+margin-top: 30px;
+}
+
+/*navbar*/
+#navbar{
+
+    display:flex;
+    border:2px solid black;
+    height:50px;
+    width:100%;
+    background-color: black;
+    opacity:0.85;
+    border-radius:7em;
+}
+#navbar .items li a{
+    font-size:20px;
+    margin:16px;
+    border:2px solid black;
+    text-decoration:none;
+    color:white;
+    z-index:100;
+    font-weight:500;
+    padding:3px 6px;
+}
+#navbar ul{
+    list-style: none;
+    display:flex;
+}
+#navbar .items li a:hover{
+    color:rgb(0, 0, 0);
+    background-color: white;
+    border-radius:0.6em;
+ 
+}
+#navbar .items{
+    padding-left: 15px;
+}
+/*search bar*/
+.searchbar{
+    max-width: 700px;
+    display:flex;
+    margin-left:300px;
+
+}
+.searchbar input{
+    flex:0;
+    font-size: 20px;
+    text-align: left;
+    padding:20px 24px;
+    outline:none;
+    border-radius:60px;
+    margin-left: 100px;
+    color:cac7ff;
+
+}
+::placeholder{
+    margin-left: 25px;
+    color:cac7ff;
+}
+body{
+    background-image: url(images/library3.jpg);
+    background-attachment: fixed;
+}
+.card ul li {
+    display:block;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: #f1f1f1;
+    height:400px;
+    width: 550px;
+    margin:75px auto;
+    cursor:pointer; 
+    transition: transform .2s;
+    
+  }
+ 
+  .card ul li:hover{
+    
+    transform: scale(1.05);
+    background-color: aquamarine;
+   
+  
+
+  }
+  .card ul li img:hover{
+    transition: transform .2s;
+  }
+  .card ul h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .card ul>h1{
+    margin-top:70px;
+  }
+.logout a{
+    display:flex;
+    text-decoration:none;
+    margin:12px;
+    border:2px solid black;
+    margin-left:63px;
+    margin-bottom:15px;
+    font-size:20px;
+    color:white;
+    padding:3px 4px;
+  }
+  .logout a:hover{
+    color:rgb(6, 67, 36);
+    background-color: white;
+    border-radius:0.6em;
+  }
+  

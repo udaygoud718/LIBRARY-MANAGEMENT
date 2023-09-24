@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button input{
+    transition: transform .2s;
+
+}
+.button input:hover{
+    
+transform: scale(1.10);
+
+}
+a{
+    transition: transform .2s;
+
+}
+a:hover{
+    
+    
+transform: scale(1.05);
+zoom:110%;
+color:crimson;
+}
+img{
+ padding: top 0;
+ padding-left: 0%;
+
+}
+h1{
+    margin-top:auto ;
+    padding-top:0px;
+}
+
+#form1{
+text-align:center;
+ font-size: larger;
+ }
+             
+body{
+ background-image:url(images/library5.jpg);
+ border-image-repeat:no repeat;
+flex-direction: column;
+ display:flex;
+justify-content: center;
+ margin-top:0px;
+ }
+input{  border-radius:1rem;
+             }
+ .button input:hover{
+ background-color: aqua;
+ color:black;
+ }
+        </style>
+   
+</head>
+<body>
+    <script type="text/javascript" src="js/newaccount.js">
+    </script>   
+ <img src="images/au1.png" height="90" width="400"  >
+  <form id="form1" ><br><br>
+    <h1 >Registration for library management</h1><br><br>
+   <div class="form2">
+    NAME:<input type="text" name="name" id="name"><br><br>
+    ROLL NO:<input type="text" name="rollno" id="rollno"><br><br>
+    PHONE NUMBER:<input type="text" id="phno"><br><br>
+    USER NAME:<input type="text" id="user" name="username"><br><br>
+    NEW PASSWORD:<input type="password" id="pass" name="password"><br><br>
+    E-MAIL:<input type="text" id="e-mail"><br><br>
+    DEPARTMENT:<select id="dept">
+        <option value="select">--select--</option>
+        <option value="CSE">CSE</option>
+        <option value="IT">IT</option>
+        <option value="ECE">ECE</option>
+        <option value="AIML">AIML</option>
+        <option value="AIML">CIVIL</option>
+        <option value="AIML">MECH</option>
+
+    </select><br><br>
+ </div>
+   <div class="button"> <input type="button" name="submit" onclick="myfun()" value="submit">&nbsp&nbsp&nbsp;
+     <input type="reset" name="reset">  </div><br><br>
+     <a href="website.html" onclick="myfun1()">Back to LogIn page</a>
+</form>
+</body>
+</html>
